@@ -1,0 +1,154 @@
+@media only screen and (max-width: 600px)
+{
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    
+    body{
+        background-image: url("./img/fundo.png");
+        width: 100vw;
+        height: 100vh;
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #header{
+        position: absolute;
+        width: 100vw;
+        height: 15vh;
+        left: 0px;
+        top: 0px;
+        background: rgba(50, 117, 185, 0.25);
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    #text-header{
+        position: absolute;
+        width: 200px;
+        height: 42px;
+        left: 145px;
+        top: 40px;
+        font-family: 'Play';
+        font-weight: 700;
+        font-size: 32.6667px;
+        line-height: 38px;
+        font-weight: bold;
+        color: #000000;
+    }
+
+    #img-header{
+    width: 15%;
+    height: 70%;
+    position: relative;
+    left: 75px;
+    top: 40px;
+    filter: drop-shadow(0px 4px 5px rgba(0, 0, 0, 0.25));
+    }
+
+    .container{
+        width: 100vw;
+        height: 85vh;
+    }
+
+    h2{
+        width: 260px;
+        position: relative;
+        top: 170px;
+        left: 67px;
+        font-size: 2.2rem;
+        font-family: 'Play', sans-serif;
+    }
+
+    .caixas{
+        width: 80vw;
+        height: 400px;
+        position: relative;
+        top: 200px;
+        left: 40px;
+    }
+
+    .box{
+        width: 80vw;
+        height: 40px;
+        margin-top: 30px;
+        background-color: #fff;
+        border: 1px solid #6C6C6C;
+        border-radius: 5px;
+    }
+
+    p{
+        color: #6C6C6C;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        padding-left: 15px;
+        padding-top: 8px;
+    }
+
+    #termos{
+        width: 330px;
+        display: flex;
+        position: relative;
+        top: 210px;
+        left: 40px;
+    }
+
+    #icone-termos{
+        width: 30px;
+        height: 30px;
+        border: solid 2px #6C6C6C;
+    }
+
+    #text-termos p{
+        color: #000;
+    }
+
+    #criar{
+        width: 80vw;
+        height: 50px;
+        background-color: #4682B4;
+        position: relative;
+        top: 230px;
+        left: 40px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #criar p{
+        padding-right: 20px;
+        padding-top: 15px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #fff
+    }
+
+    #voltar{
+        width: 25vw;
+        height: 30px;
+        background-color: #4682B4;
+        position: relative;
+        top: 250px;
+        left: 40px;
+        border-radius: 5px;
+    }
+
+    #voltar p{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+        font-weight: bold;
+        width: 60px;
+        padding: 5px 0 0 25px;
+    }
+
+    a{
+        color: #4682B4;
+    }
+}
